@@ -10,6 +10,7 @@ class Cleaner {
     }
 }
 public class CleaningCompanySystem {
+    private static List<Cleaner> cleaners = new ArrayList<>()
   public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
